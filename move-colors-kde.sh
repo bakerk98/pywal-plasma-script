@@ -121,5 +121,7 @@ activeForeground=$foreground
 inactiveBackground=$color0
 inactiveBlend=$color0
 inactiveForeground=$color7" > ~/.kde4/share/apps/color-schemes/$1.colors
+kwriteconfig5 --file ~/.config/kdeglobals --group WM --key frame $color3 #these lines come from https://github.com/gikari/bismuth/blob/master/TWEAKS.md
+kwriteconfig5 --file ~/.config/kdeglobals --group WM --key frame $color0 #they are used to change the color of the border around windows, useful if you use borders
 echo "Made a plasma color scheme at ~/.kde4/share/apps/color-schemes/$1.colors"
 echo "Don't forget to add it! System Settings -> Appearance -> Colors -> Install from File"
