@@ -28,9 +28,9 @@ Enable=false
 
 [Colors:Button]
 BackgroundAlternate={color9.rgb}
-BackgroundNormal={color1.rgb}
-DecorationFocus={color9.rgb}
-DecorationHover={color9.rgb}
+BackgroundNormal={color8.rgb}
+DecorationFocus={color8.rgb}
+DecorationHover={color8.rgb}
 ForegroundActive={background.rgb}
 ForegroundInactive={color8.rgb}
 ForegroundLink={color9.rgb}
@@ -42,7 +42,7 @@ ForegroundVisited={color10.rgb}
 
 [Colors:Selection]
 BackgroundAlternate={color9.rgb}
-BackgroundNormal={color9.rgb}
+BackgroundNormal={color2.rgb}
 DecorationFocus={color9.rgb}
 DecorationHover={color9.rgb}
 ForegroundActive={foreground.rgb}
@@ -97,8 +97,8 @@ ForegroundPositive={color13.rgb}
 ForegroundVisited={color10.rgb}
 
 [WM]
-activeBackground={color1.rgb}
-activeBlend={color1.rgb}
+activeBackground={color2.rgb}
+activeBlend={color2.rgb}
 activeForeground={foreground.rgb}
 inactiveBackground={color8.rgb}
 inactiveBlend={color8.rgb}
